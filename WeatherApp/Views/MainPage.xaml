@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:local="clr-namespace:WeatherApp" 
+             x:Class="WeatherApp.Views.MainPage"
+             xmlns:weatherVm="clr-namespace:WeatherApp.ViewModels"
+             BackgroundImage="background.jpg">
+   <ContentPage.BindingContext>
+        <weatherVm:WeatherViewModel/>
+   </ContentPage.BindingContext>
+    
+    <StackLayout>
+        <Label Text="WEATHER FORECAST"
+               HorizontalOptions="Center"
+               Margin="0,10,0,0"
+               FontAttributes="Bold"
+               FontSize="24"
+               TextColor="Red"/>
+        <Entry Placeholder="City's name"
+               Grid.Row="1"
+               TextColor="Red"
+               Grid.Column="0"
+               Margin="10,0,10,0"
+               HeightRequest="35"
+               Text="{Binding Search, Mode=TwoWay}"/>
+      
+        <ListView BackgroundColor="Transparent"
+                  Margin="10,0,10,0"
+                  ItemTapped="Handle_ItemTapped"
+                  ItemsSource="{Binding ListCity.List}">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout 
+                              BackgroundColor="#ffffff"
+                              Opacity="0.5"
+                              Orientation="Horizontal">
+                              <Label Text="{Binding Name}"
+                                     VerticalOptions="Center"
+                                     HorizontalOptions="Start"
+                                     Margin="10,0,0,0"/>
+                         </StackLayout>
+                      </ViewCell>
+                 </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+</ContentPage>

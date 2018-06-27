@@ -1,0 +1,12 @@
+/Users/mptt2/Projects/WeatherApp/WeatherApp/bin/Debug/netstandard2.0/WeatherApp.dll.config
+/Users/mptt2/Projects/WeatherApp/WeatherApp/bin/Debug/netstandard2.0/WeatherApp.deps.json
+/Users/mptt2/Projects/WeatherApp/WeatherApp/bin/Debug/netstandard2.0/WeatherApp.dll
+/Users/mptt2/Projects/WeatherApp/WeatherApp/bin/Debug/netstandard2.0/WeatherApp.pdb
+/Users/mptt2/Projects/WeatherApp/WeatherApp/bin/Debug/netstandard2.0/Mono.Android.dll
+/Users/mptt2/Projects/WeatherApp/WeatherApp/bin/Debug/netstandard2.0/Mono.Android.pdb
+/Users/mptt2/Projects/WeatherApp/WeatherApp/obj/Debug/netstandard2.0/WeatherApp.csproj.App.config
+/Users/mptt2/Projects/WeatherApp/WeatherApp/obj/Debug/netstandard2.0/WeatherApp.csproj.CoreCompileInputs.cache
+/Users/mptt2/Projects/WeatherApp/WeatherApp/obj/Debug/netstandard2.0/WeatherApp.AssemblyInfoInputs.cache
+/Users/mptt2/Projects/WeatherApp/WeatherApp/obj/Debug/netstandard2.0/WeatherApp.AssemblyInfo.cs
+/Users/mptt2/Projects/WeatherApp/WeatherApp/obj/Debug/netstandard2.0/WeatherApp.dll
+/Users/mptt2/Projects/WeatherApp/WeatherApp/obj/Debug/netstandard2.0/WeatherApp.pdb
